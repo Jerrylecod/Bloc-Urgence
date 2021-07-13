@@ -1,0 +1,35 @@
+    .container {
+        display: grid;
+        grid-template-rows: 50px 50px 50px 50px;
+        background-image: url(image/Fond-gris-noir-bandeau-haut.jpg);
+    }
+    
+    F header {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        margin: 2%;
+        padding: 5%;
+    }
+    
+    ul {
+        display: grid;
+    }
+    
+    li {
+        grid-row-start: 1;
+        grid-row-end: 4;
+        color: rgb(0, 0, 0);
+        letter-spacing: 1px;
+        list-style: none;
+    }
+    
+    main {
+        background-color: black;
+        display: grid;
+        grid-template-rows: 50px 50px 50px 50px;
+    }
