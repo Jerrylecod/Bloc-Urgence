@@ -8,13 +8,22 @@ body {
     background: url(image/feuillage.jpg);
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .icon {
     width: 20px;
     height: 20px;
     color: white;
+}
+
+.but-ico {
+    margin: 2%;
+}
+
+.but-search {
+    float: right;
+    margin: 2%;
 }
 
 .search {
@@ -24,4 +33,5 @@ body {
 h1 {
     color: white;
     text-align: center;
+    margin-bottom: -9%;
 }
