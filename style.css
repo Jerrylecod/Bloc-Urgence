@@ -3,6 +3,12 @@
                         margin: 0;
                     }
                     
+                    @media screen and (max-width:358px) {
+                        body {
+                            overflow: hidden;
+                        }
+                    }
+                    
                     .title {
                         display: inline-block;
                         background: url(image/feuillage.jpg);
@@ -106,4 +112,42 @@
                     
                     .para-collecte {
                         font-family: 'Dokdo', cursive;
+                    }
+                    
+                    .clothes {
+                        background: linear-gradient(135deg, rgb(127, 149, 127), green, rgb(13, 70, 13));
+                        font-family: 'Dokdo', cursive;
+                        margin: 3%;
+                        padding: 3%;
+                        color: white;
+                        text-shadow: 1px 1px 1px rgb(37, 36, 36);
+                    }
+                    
+                    .woman {
+                        width: auto;
+                        height: 194px;
+                        margin-top: 10%;
+                        border: 1px solid black;
+                        border-radius: 20%;
+                        box-shadow: 1px 4px 1px 1px white;
+                    }
+                    
+                    .beauty {
+                        display: flex;
+                        justify-content: center;
+                        margin: 2%;
+                        padding: 5%;
+                        background: linear-gradient(135deg, rgb(21, 22, 21), green, rgb(15, 54, 15));
+                    }
+                    
+                    .shop {
+                        text-align: center;
+                        color: green;
+                        background: linear-gradient(135deg, rgb(148, 192, 163), rgb(145, 202, 185), rgb(79, 138, 84));
+                    }
+                    
+                    .para-shop {
+                        padding: 5%;
+                        margin: 5%;
+                        font-size: 1em;
                     }
