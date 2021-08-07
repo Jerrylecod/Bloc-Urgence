@@ -1,13 +1,12 @@
                     body {
                         box-sizing: border-box;
-                        margin: 0;
+                        margin: 0px;
                     }
-                    
-                    @media screen and (max-width:358px) {
+                    /* @media screen and (max-width:358px) {
                         body {
                             overflow: hidden;
                         }
-                    }
+                    } */
                     
                     .title {
                         display: inline-block;
@@ -51,7 +50,7 @@
                         width: 100%;
                         height: 400px;
                         opacity: 0.8;
-                        margin: 2%;
+                        margin-top: 2%;
                     }
                     
                     .para-title {
@@ -141,7 +140,12 @@
                     }
                     
                     .shop {
+                        display: block;
                         text-align: center;
+                        margin: auto;
+                        padding: auto;
+                        height: auto;
+                        width: auto;
                         color: green;
                         background: linear-gradient(135deg, rgb(148, 192, 163), rgb(145, 202, 185), rgb(79, 138, 84));
                     }
