@@ -385,3 +385,52 @@
                                             margin: 5%;
                                             text-shadow: 1px 1px 1px #faf7f7;
                                         }
+                                        /* formulaire */
+                                        
+                                        .formulary {
+                                            background: url(image/feuilles.jpg);
+                                            background-size: cover;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: space-around;
+                                            align-content: center;
+                                            align-items: center;
+                                            margin-top: 5%;
+                                        }
+                                        
+                                        form {
+                                            text-align: center;
+                                        }
+                                        
+                                        .form,
+                                        .form1 {
+                                            width: 50%;
+                                            height: auto;
+                                        }
+                                        
+                                        label {
+                                            margin: 23%;
+                                            padding: 5%;
+                                            color: #e9f1ef;
+                                            text-shadow: 1px 1px 1px #080808;
+                                            font-family: 'Spartan', sans-serif;
+                                            font-style: italic;
+                                        }
+                                        
+                                        h2 {
+                                            text-align: center;
+                                            color: white;
+                                            font-family: 'Spartan', sans-serif;
+                                            font-style: oblique;
+                                            text-shadow: 1px 1px 7px #24cf3f;
+                                        }
+                                        
+                                        input {
+                                            background-color: #f2f8f3;
+                                            width: 142px;
+                                            height: 23px;
+                                            margin: 5%;
+                                            box-shadow: 1px 1px 1px 1px inset;
+                                            border-radius: 30%;
+                                            padding: 2%;
+                                        }
